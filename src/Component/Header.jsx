@@ -35,11 +35,11 @@ export default function Header() {
       </Carousel>
     </div>
       <div className='xxx' style={{background: "#f4eee5", display: "flex", justifyContent: "center", flexDirection: "column",  alignItems: "center"}}>
-        <h1 style={{margin: "0px", padding: "5px", fontFamily:'fantasy'}}>VERVE</h1>
+        <h1 style={{margin: "0px", padding: "5px", fontFamily:'fantasy'}}> <a href='/' style={{textDecoration: "none", color: "inherit"}}>VERVE</a></h1>
         <p style={{margin: "0px", padding: "5px", fontSize: 12}}>COFFEE ROASTERS</p>  
       </div>                             
       <div className='header'>
-        <div><a href='/coffee'>COFFEE</a></div>
+        <div><a href='/coffee' style={{textDecoration: "none", color: "inherit"}}>COFFEE</a></div>
         <div>LOCATIONS</div>
         <div>SUBSCRIPTION</div>
         <div>STORY</div>
